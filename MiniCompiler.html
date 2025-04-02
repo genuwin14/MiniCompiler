@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Compiler</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <!-- <h1>Mini Compiler</h1> -->
+        </div>
+        <!-- Content Section with Left and Right Inside -->
+        <div class="content">
+            <!-- Left Section with Vertically Aligned Buttons -->
+            <div class="left-section">
+                <button id="openFile">Open File</button>
+                <button id="lexicalBtn">Lexical Analysis</button>
+                <button id="syntaxBtn">Syntax Analysis</button>
+                <button id="semanticBtn">Semantic Analysis</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+            <!-- Right Section with Textareas -->
+            <div class="right-section">
+                <!-- Results Textarea -->
+                <textarea class="result" id="result" placeholder="Results" readonly></textarea>
+                <!-- Mini Container Textarea -->
+                <textarea class="mini-container" id="codeInput" placeholder="Enter your code here" readonly></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
